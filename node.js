@@ -25,15 +25,15 @@ app.post('/api/send-email', async (req, res) => {
         let transporter = nodemailer.createTransport({
             service: 'Gmail',
             auth: {
-                user: 'vasilchenko.maksim374@gmail.com', 
-                pass: 'rzgc mupw xzth csir' 
+                user: 'twinschool958@gmail.com', 
+                pass: 'pawo clur ituo ejib' 
             }
         });
 
         
         let mailOptions = {
-            from: 'vasilchenko.maksim374@gmail.com', 
-            to: 'vasilchenko.maksim374@gmail.com', 
+            from: 'twinschool958@gmail.com', 
+            to: 'twinschool958@gmail.com', 
             subject: 'New Question from Contact Form', 
             text: `Name: ${name}\n Surname: ${surname}\nEmail: ${email}\nQuestion: ${question}` 
         };
