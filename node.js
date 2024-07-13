@@ -35,7 +35,7 @@ app.post('/api/send-email', async (req, res) => {
             from: 'twinschool958@gmail.com', 
             to: 'twinschool958@gmail.com', 
             subject: 'New Question from Contact Form', 
-            text: `Name: ${name}\n Surname: ${surname}\nEmail: ${email}\nQuestion: ${question}` 
+            text: `Name: ${name}\nSurname: ${surname}\nEmail: ${email}\nQuestion: ${question}` 
         };
 
         
